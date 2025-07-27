@@ -1,3 +1,11 @@
+// File: interface/index.ts
+
+import { ReactNode } from 'react';
+
+export interface PageRouteProps {
+  pageRoute: string;
+}
+
 export interface ButtonProps {
   buttonLabel: string;
   buttonSize?: string;
@@ -6,9 +14,5 @@ export interface ButtonProps {
 }
 
 export interface LayoutProps {
-  children: React.ReactNode;
-}
-
-export interface PageRouteProps {
-  pageRoute: string;
+  children: ReactNode;
 }
