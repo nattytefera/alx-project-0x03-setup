@@ -1,3 +1,4 @@
+import { ButtonProps }
 // File: components/common/Button.tsx
 import { type ButtonProps } from '@/interface/index';
 
